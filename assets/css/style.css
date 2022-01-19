@@ -1,0 +1,21 @@
+/* Lev1_1 */
+
+.bheadline{
+    font-size: 3rem;
+    color: antiquewhite;
+    text-shadow: 1px 1px 3px grey;
+}
+
+.blist{
+    font-size: 1.5rem;
+    color: brown;
+}
+
+/* Lev1_2 */
+.changeHeadline{
+    font-family: fantasy;
+    color: chocolate;
+    text-shadow: 1px 1px 3px darkcyan;
+}
+
+/* Lev1_1 js forms */

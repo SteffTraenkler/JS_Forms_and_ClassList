@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Lev1_1 und Lev1_2 classLists -->
+    <h1 id="bucketlh">Meine Bucket List</h1>
+    <ul id="bucketlist">
+        <li>Japanisch lernen</li>
+        <li>Französisch lernen</li>
+        <li>Comic zeichnen</li>
+        <li>schreiben</li>
+    </ul>
+    <button onclick="changeHeadline()">Headline stylen</button>
+    <button onclick="resetHeadline()">Headline zurücksetzen</button>
+    <p>Forms:</p>
+    <!-- Lev1_1 forms -->
+    <form action="" onsubmit="return false">
+        <input type="number" name="zahl" id="zahl" placeholder="gib eine Zahl ein" required>
+        <button onclick="zahleingabe()">Verdoppel mich</button>
+        <p id="result"></p>
+    </form>
+    <!-- Lev1_2 age -->
+    <p></p>
+    <label for="year">Bitte gib dein Geburtsjahr ein</label>
+    <form action="" onsubmit="return false">
+        <input type="number" name="year" id="year" required>
+        <button onclick="byear()">Berechne mein Alter</button>
+        <p id="result_age"></p>
+    </form>
+    <!-- Lev1_3 forms compare age -->
+    <form action="" onsubmit="return false">
+        <label for="age1">Alter 1</label>
+        <input type="number" name="age1" id="age1" required>
+    </form>
+    <form>
+        <label for="age2">Alter 2</label>
+        <input type="number" name="age2" id="age2" required>
+    </form>
+    <button onclick="calc()">Berechne!</button>
+    <p>Die Differenz ist:</p>
+    <p id="resultcomp"></p>
+    </form>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
